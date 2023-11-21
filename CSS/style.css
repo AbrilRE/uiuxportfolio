@@ -293,8 +293,8 @@ button:hover{
 .submenu{
     position: fixed;
     right: 0rem;
-    padding: 20vh 2rem;
-    width: 20%;
+    padding: 20vh 2rem 0rem 0rem;
+    width: auto;
     height: 100vh;
     display: flex;
     flex-direction: column;
