@@ -275,6 +275,47 @@ button:hover{
     color: #A76E7A;
 }
 
+.proyect{
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 10rem 1rem 10rem;
+}
+
+.proyect > img{
+    width: 100%;
+}
+
+
+.proyect > iframe{
+    height: 85vh;
+}
+
+.submenu{
+    position: fixed;
+    right: 0rem;
+    padding: 20vh 2rem;
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.submenu > a{
+    text-decoration: none;
+    color: #A76E7A;
+}
+
+.submenu > a >p{
+   font-size: 1rem;
+   text-align: right;
+}
+
+
+.submenu > a:hover{
+    color: black;
+}
+
 .contact{
     display: flex;
     flex-direction: column;
@@ -357,8 +398,7 @@ button:hover{
 }
 
 .album {
-    margin-top: 1.5rem;
-    width: 100%;
+    margin-top: 1.5rem; 
     display: flex;  
     justify-content: space-between;
 }
@@ -367,9 +407,74 @@ button:hover{
     width: 32%;
 }
 
+.practice{
+    width: 48%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.practice > h1 {
+    margin-bottom: 1rem;
+}
+
+
 .album-photo > img{
     width: 100%;
     margin-bottom: 1rem;
+}
+
+@keyframes growUp{
+    from {
+        Top: 100%;
+        opacity: 0%;
+      }
+    
+      to {
+        top: 0px;
+        opacity: 100%;
+      }
+}
+
+@keyframes growBack{
+    from {
+        top: 0px;
+        opacity: 100%;
+      }
+    
+      to {
+        Top: 100%;
+        opacity: 0%;
+      }
+}
+
+.modal{
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: none;
+}
+
+.close{
+    height: 1rem;
+    display: flex;
+    justify-content: end;
+    margin-top: 2.5rem;
+    margin-right: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.figma{
+    text-align: center;
+}
+
+.figma > iframe{
+    margin-top: 3rem;
+    width: 60%;   
+    height: 75vh;
 }
 
 footer{

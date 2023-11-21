@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=DM+Serif+Display&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/02fe5580df.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="./CSS/style.css">    
+    <title>Abril Ríos</title>
+
+</head>
+
+<body>
+    <div class="back-line"></div>
+
+    
+    <div class="modal" id="floral">
+        <div class="close" onclick="closeModal('floral')"><i class="fa-solid fa-xmark"></i></div>
+        <div class="figma">
+            <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaMBXZnVQrTMTUOZcQCdbl5%2FWeb%252C-Makeup%252C-Plants%3Fpage-id%3D225%253A580%26node-id%3D404-594%26starting-point-node-id%3D227%253A748%26scaling%3Dscale-down%26show-proto-sidebar%3D1%26mode%3Ddesign%26t%3DveywkV8t1TM4tw08-1" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="modal" id="plants">
+        <div class="close" onclick="closeModal('plants')"><i class="fa-solid fa-xmark"></i></div>
+        <div class="figma">
+            <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaMBXZnVQrTMTUOZcQCdbl5%2FWeb%252C-Makeup%252C-Plants%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D3-3%26viewport%3D165%252C401%252C0.08%26t%3D3mwW8poUirpL3JzW-1%26scaling%3Dscale-down%26starting-point-node-id%3D3%253A3%26show-proto-sidebar%3D1%26mode%3Ddesign" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+    <header>
+        <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1699300566/UI%20UX%20Portafolio%20%282023%29/Extras/cfi08jnspofyykunye9d.png">
+        <div class="header-options">
+            <a class="op-default" href="home.html"> <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1699300086/UI%20UX%20Portafolio%20%282023%29/Extras/cnsheathk9kzd1yrdcyr.png">MY WORK </a>
+            <a class="op-default" href="about.html"><img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1699300086/UI%20UX%20Portafolio%20%282023%29/Extras/cnsheathk9kzd1yrdcyr.png">  ABOUT </a>
+            <a class="op-active" href="practice.html"><img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1699300086/UI%20UX%20Portafolio%20%282023%29/Extras/cnsheathk9kzd1yrdcyr.png">  PRACTICE </a>
+        </div>
+    </header>
+    
+    <div class=" container album">
+        <div class="album-photo practice">
+            <h3>UI MOBILE</h3>
+            <h1> Floral</h1>
+            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1700008395/UI%20UX%20Portafolio%20%282023%29/Practicas/b5suyysmbdiewfrozdbn.png">
+            <button onclick="openModal('floral')"> VIEW PROTOTYPE <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+        <div class="album-photo practice">
+            <h3>UI MOBILE</h3>
+            <h1> Plants Site</h1>
+            <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1700526007/UI%20UX%20Portafolio%20%282023%29/Practicas/mgqgapsjwtwducmxollo.png">
+            <button onclick="openModal('plants')"> VIEW PROTOTYPE <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+    <footer>
+        <h3> UI/UX PORTFOLIO </h3>
+        <p> ABRIL RIOS </p>
+        <p> © 2023 </p>
+    </footer>
+</body>
+
+<script src="./JS/script.js"></script>
+</html>
