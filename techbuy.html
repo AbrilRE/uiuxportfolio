@@ -23,24 +23,29 @@
 <body>
     <div class="back-line"></div>
     <header>
-        <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1699300566/UI%20UX%20Portafolio%20%282023%29/Extras/cfi08jnspofyykunye9d.png">
-        <div class="header-options">
+        <a href="./home.html"> <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1699300566/UI%20UX%20Portafolio%20%282023%29/Extras/cfi08jnspofyykunye9d.png"></a>
+        <div class="mobile-menu" id="mobilemenu" onclick="openMobileMenu()"><i class="fa-solid fa-bars"></i></div>
+        <div class="header-options"  id="mobilemenuoptions">
             <a class="op-default" href="home.html"> <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1699300086/UI%20UX%20Portafolio%20%282023%29/Extras/cnsheathk9kzd1yrdcyr.png">MY WORK </a>
             <a class="op-default" href="about.html"><img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1699300086/UI%20UX%20Portafolio%20%282023%29/Extras/cnsheathk9kzd1yrdcyr.png">  ABOUT </a>
             <a class="op-default" href="practice.html"><img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1699300086/UI%20UX%20Portafolio%20%282023%29/Extras/cnsheathk9kzd1yrdcyr.png">  PRACTICE </a>
         </div>
     </header>
     
-    <div class="submenu">
-        <a href="#title">Title</a>
-        <a href="#about">About the proyect</a>
-        <a href="#design">Design process</a>
-        <a href="#user">User flow & Sitemap</a>
-        <a href="#lowfi">Low-fi & Mid-fi</a>
-        <a href="#wireframes">Wireframes interactions</a>
-        <a href="#designsys">Design system</a>
-        <a href="#hifi">Hi-fi</a>
-        <a href="#proto">Prototype</a>
+    <div class="mobile-submenu"  onclick="openSubmenu()">
+        Proyect menu <i class="fa-solid fa-caret-down"></i>
+    </div>
+
+    <div class="submenu" id="submenu">
+        <a href="#title" onclick="closeSubmenu()">Title</a>
+        <a href="#about" onclick="closeSubmenu()">About the proyect</a>
+        <a href="#design" onclick="closeSubmenu()">Design process</a>
+        <a href="#user" onclick="closeSubmenu()">User flow & Sitemap</a>
+        <a href="#lowfi" onclick="closeSubmenu()">Low-fi & Mid-fi</a>
+        <a href="#wireframes" onclick="closeSubmenu()">Wireframes interactions</a>
+        <a href="#designsys" onclick="closeSubmenu()">Design system</a>
+        <a href="#hifi" onclick="closeSubmenu()">Hi-fi</a>
+        <a href="#proto" onclick="closeSubmenu()">Prototype</a>
     </div>
 
     <div class="proyect">

@@ -23,21 +23,26 @@
 <body>
     <div class="back-line"></div>
     <header>
-        <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1699300566/UI%20UX%20Portafolio%20%282023%29/Extras/cfi08jnspofyykunye9d.png">
-        <div class="header-options">
+        <a href="./home.html"> <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1699300566/UI%20UX%20Portafolio%20%282023%29/Extras/cfi08jnspofyykunye9d.png"></a>
+        <div class="mobile-menu" id="mobilemenu" onclick="openMobileMenu()"><i class="fa-solid fa-bars"></i></div>
+        <div class="header-options"  id="mobilemenuoptions">
             <a class="op-default" href="home.html"> <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1699300086/UI%20UX%20Portafolio%20%282023%29/Extras/cnsheathk9kzd1yrdcyr.png">MY WORK </a>
             <a class="op-default" href="about.html"><img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1699300086/UI%20UX%20Portafolio%20%282023%29/Extras/cnsheathk9kzd1yrdcyr.png">  ABOUT </a>
             <a class="op-default" href="practice.html"><img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1699300086/UI%20UX%20Portafolio%20%282023%29/Extras/cnsheathk9kzd1yrdcyr.png">  PRACTICE </a>
         </div>
     </header>
 
-    <div class="submenu">
-        <a href="#title">Title</a>
-        <a href="#about">About the proyect</a>
-        <a href="#user">User research </a>
-        <a href="#compet">Competition analysis </a>
-        <a href="#hi-fi">Hi-fi </a>
-        <a href="#proto">Prototype</a>
+    <div class="mobile-submenu"  onclick="openSubmenu()">
+        Proyect menu <i class="fa-solid fa-caret-down"></i>
+    </div>
+
+    <div class="submenu"  id="submenu">
+        <a href="#title" class="option" onclick="openSubmenu()">Title</a>
+        <a href="#about" onclick="openSubmenu()">About the proyect</a>
+        <a href="#user" onclick="openSubmenu()">User research </a>
+        <a href="#compet" onclick="openSubmenu()">Competition analysis </a>
+        <a href="#hi-fi" onclick="openSubmenu()">Hi-fi </a>
+        <a href="#proto" onclick="openSubmenu()">Prototype</a>
     </div>
 
     <div class="container proyect">
