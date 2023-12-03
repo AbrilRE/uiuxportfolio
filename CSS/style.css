@@ -701,54 +701,45 @@ footer>h3 {
 
 @media only screen and (max-width: 720px) {
 
-    body {
-        font-size: 1.4rem;
-        line-height: 1.9rem;
+    p {
+        font-size: 1.1rem;
+        line-height: 1.3rem;
     }
 
     h1 {
-        font-size: 2.2rem;
-        line-height: 2.3rem;
+        font-size: 1.5rem;
+        line-height: 1.6rem;
     }
 
     h2 {
-        font-size: 2rem;
-        line-height: 2.3rem;
+        font-size: 1.4rem;
+        line-height: 1.5rem;
     }
 
     h3 {
-        font-size: 1.5rem;
-    }
-
-    button {
-        padding: 0.6rem 2rem;
-        letter-spacing: 0.15rem;
         font-size: 1.2rem;
     }
 
     .back-line {
-        left: 2rem;
+        left: 1rem;
     }
 
     header {
+        height: auto;
         align-items: start;
-        padding: 1.2rem 2rem 1rem 2rem;
+        padding: 1rem 1rem 0.3rem 1rem;
     }
 
     header>a {
         height: 4vh;
-    }
-
-    header>a>img {
-        height: 4vh;
+        margin-bottom: 0.1rem;
     }
 
     .mobile-menu {
-        padding-top: 0.5rem;
         display: flex;
         align-items: start;
         color: #000000;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .mobile-submenu {
@@ -778,9 +769,8 @@ footer>h3 {
 
     .header-options>a {
         width: 100%;
-        padding: 1rem 0rem;
-        padding-left: 2rem;
-        font-size: 1.5rem;
+        padding: 0.77rem 1rem;
+        font-size: 1rem;
         margin: 0rem;
         justify-content: start;
     }
@@ -791,7 +781,7 @@ footer>h3 {
     }
 
     .hero {
-        margin: 4rem 2rem 3rem 2rem;
+        margin: 2.5rem 1rem 4rem 1rem;
         padding: 0rem;
         justify-content: space-between;
     }
@@ -807,7 +797,7 @@ footer>h3 {
     .align-left,
     .align-rigth {
         width: auto;
-        padding: 6.8vh 4vh;
+        padding: 7vh 4vh;
         background-color: #00000025;
     }
 
@@ -827,20 +817,24 @@ footer>h3 {
     }
 
     footer {
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
     }
 
     footer>p {
-        margin-bottom: 0.4rem;
+        margin-bottom: 0.2rem;
     }
 
     footer>h3 {
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .about-like {
+        padding: 3rem 1rem;
+        margin: 5rem 0rem;
     }
 
     .album{
-        padding: 1.5rem 2rem;
+        padding: 0rem;
     }
 
     .album-photo>img {
