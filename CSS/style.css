@@ -93,7 +93,6 @@ header>a>img {
 
 .header-options {
     display: flex;
-    align-items: center;
 }
 
 .header-options>a {
@@ -144,6 +143,21 @@ header>a>img {
 
 .container {
     padding: 1.5rem 3.5rem 1rem 3.5rem;
+}
+
+.samples{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.samples > img{
+    height: 3rem;
+    margin-bottom: 1rem;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 .hero {
@@ -727,7 +741,7 @@ footer>h3 {
     header {
         height: auto;
         align-items: start;
-        padding: 1rem 1rem 0.3rem 1rem;
+        padding: 1.2rem 1rem 0.4rem 1rem;
     }
 
     header>a {
@@ -764,12 +778,11 @@ footer>h3 {
         flex-direction: column;
         position: absolute;
         top: 8vh;
-        left: 1rem;
+        left: 0rem;
     }
 
     .header-options>a {
-        width: 100%;
-        padding: 0.77rem 1rem;
+        padding: 0.8rem 1rem 0.8rem 1rem;
         font-size: 1rem;
         margin: 0rem;
         justify-content: start;
@@ -778,6 +791,16 @@ footer>h3 {
     .op-default>img {
         height: 1rem;
         margin: 0rem;
+    }
+
+    .samples{
+        margin-top: 0.5rem;
+        margin-bottom: 3rem;
+    }
+    
+    .samples > img{
+        height: 2.5rem;
+        margin-bottom: 0.5rem;
     }
 
     .hero {
@@ -797,14 +820,14 @@ footer>h3 {
     .align-left,
     .align-rigth {
         width: auto;
-        padding: 6.85vh 4vh;
+        padding: 4.9rem 4vh;
         background-color: #00000025;
     }
 
     .background-gym,
     .background-tech,
     .background-makeup {
-        height: 35vh;
+        height: 20rem;
     }
 
     .contact {
@@ -884,7 +907,7 @@ footer>h3 {
 
     header {
         align-items: start;
-        padding: 0.7rem 1rem;
+        padding: 0.9rem 1rem 0.4rem 1rem;
     }
 
     header>a {
@@ -923,10 +946,8 @@ footer>h3 {
     }
 
     .header-options>a {
-        width: 100%;
-        padding: 0.5rem 0rem;
-        padding-left: 2rem;
-        font-size: 0.9rem;
+        padding: 0.5rem 0rem 0.5rem 1rem;
+        font-size: 0.8rem;
         margin: 0rem;
         justify-content: start;
     }
@@ -936,10 +957,23 @@ footer>h3 {
         margin: 0rem;
     }
 
+    .samples{
+        margin-top: 0.5rem;
+
+    }
+    
+    .samples > img{
+        height: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .samples > p {
+        text-align: center;
+    }
 
     .hero {
         flex-direction: column-reverse;
-        margin: 2rem 0rem 2.5rem 0rem;
+        margin: 0.5rem 0rem 2.5rem 0rem;
         padding: 0rem 1rem;
     }
 
@@ -990,10 +1024,6 @@ footer>h3 {
         padding: 3rem 1rem;
         margin: 4rem 0rem;
         text-align: center;
-    }
-
-    .container {
-        padding: 2.5rem 1rem 2.5rem 1rem;
     }
 
     .close {

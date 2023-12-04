@@ -40,7 +40,7 @@ function openMobileMenu(){
 
     else {
         options.style.display = 'flex';
-        menu.style.height = '24vh';
+        menu.style.height = '23.5vh';
     }
 }
 
