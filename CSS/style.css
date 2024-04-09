@@ -236,6 +236,10 @@ h2 {
     .background-tech {
         transform: scale(1.1);
     }
+
+    .background-xid{
+        transform: scale(1.1);
+    }
 }
 
 button {
@@ -298,6 +302,21 @@ button:hover {
 
 .makeup {
     color: #A76E7A;
+}
+
+.background-xid{
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 639px;
+    background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1712625254/UI%20UX%20Portafolio%20%282023%29/Proyectos/Proyecto_4_ovf3pz.png);
+    background-position: center;
+    background-size: cover;
+    transition: 300ms all;
+}
+
+.xid{
+    color: #1a99c7;
 }
 
 .proyect {
@@ -657,7 +676,7 @@ footer>h3 {
 
     .background-gym,
     .background-tech,
-    .background-makeup {
+    .background-makeup, .background-xid {
         height: 41vh;
     }
 
@@ -833,7 +852,7 @@ footer>h3 {
 
     .background-gym,
     .background-tech,
-    .background-makeup {
+    .background-makeup, .background-xid {
         height: 20rem;
     }
 
@@ -1008,7 +1027,7 @@ footer>h3 {
 
     .background-gym,
     .background-tech,
-    .background-makeup {
+    .background-makeup, .background-xid {
         height: 48.5vh;
     }
 
