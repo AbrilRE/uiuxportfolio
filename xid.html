@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=DM+Serif+Display&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/02fe5580df.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="./CSS/style.css">    
+    <title>Abril Ríos</title>
+
+</head>
+
+<body>
+    <div class="back-line"></div>
+    <header>
+        <a href="./home.html"> <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1699300566/UI%20UX%20Portafolio%20%282023%29/Extras/cfi08jnspofyykunye9d.png"></a>
+        <div class="mobile-menu" id="mobilemenu" onclick="openMobileMenu()"><i class="fa-solid fa-bars"></i></div>
+        <div class="header-options"  id="mobilemenuoptions">
+            <a class="op-default" href="home.html"> <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1699300086/UI%20UX%20Portafolio%20%282023%29/Extras/cnsheathk9kzd1yrdcyr.png">MY WORK </a>
+            <a class="op-default" href="about.html"><img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1699300086/UI%20UX%20Portafolio%20%282023%29/Extras/cnsheathk9kzd1yrdcyr.png">  ABOUT </a>
+            <a class="op-default" href="samples.html"><img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1699300086/UI%20UX%20Portafolio%20%282023%29/Extras/cnsheathk9kzd1yrdcyr.png"> SAMPLES </a>
+        </div>
+    </header>
+
+    <div class="mobile-submenu"  onclick="openSubmenu()">
+        Proyect menu <i class="fa-solid fa-caret-down"></i>
+    </div>
+
+    <div class="submenu"  id="submenu">
+        <a href="#title" onclick="closeSubmenu()">Title</a>
+        <a href="#about" onclick="closeSubmenu()">About the proyect</a>
+        <a href="#design" onclick="closeSubmenu()">Design process
+            <p> Design system</p> 
+            <p> Hi-fi</p>    
+        </a>
+        <a href="#proto" onclick="closeSubmenu()">Prototype</a>
+    </div>
+    
+    <div class="proyect">
+        <img id="title" src="https://res.cloudinary.com/kimchidrwas/image/upload/v1722646497/UI%20UX%20Portafolio%20%282023%29/Proyectos/XID/Gym_12_qvpuas.png">
+        <img id="about" src="https://res.cloudinary.com/kimchidrwas/image/upload/v1722646499/UI%20UX%20Portafolio%20%282023%29/Proyectos/XID/Gym_15_jxzjkt.png">
+        <img id="ux" src="https://res.cloudinary.com/kimchidrwas/image/upload/v1722646500/UI%20UX%20Portafolio%20%282023%29/Proyectos/XID/Gym_16_zsroxu.png">
+        <img id="wireframe" src="https://res.cloudinary.com/kimchidrwas/image/upload/v1722647191/UI%20UX%20Portafolio%20%282023%29/Proyectos/XID/Gym_19_druimi.png">
+        <img id="proto" src="https://res.cloudinary.com/kimchidrwas/image/upload/v1722647177/UI%20UX%20Portafolio%20%282023%29/Proyectos/XID/Gym_20_xi0qj6.png">
+        <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1722646506/UI%20UX%20Portafolio%20%282023%29/Proyectos/XID/Gym_21_t2rac3.png">
+        <img src="https://res.cloudinary.com/kimchidrwas/image/upload/v1722646507/UI%20UX%20Portafolio%20%282023%29/Proyectos/XID/Gym_22_m3ppep.png">
+        <a href="https://www.xid.xyz/"><button class="xid float"> VISIT FINAL WEBSITE <i class="fa-solid fa-arrow-right"></i></button></a>
+    </div>
+
+    <footer>
+        <h3> UI/UX PORTFOLIO </h3>
+        <p> ABRIL RIOS </p>
+        <p> © 2023 </p>
+    </footer>
+</body>
+
+<script src="./JS/script.js"></script>
+</html>

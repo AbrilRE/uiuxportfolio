@@ -259,6 +259,13 @@ button:hover {
     transform: scale(1.05);
 }
 
+.float{
+    position: fixed;
+    top: 12vh;
+    right: 1vh;
+    background-color: #000000;
+}
+
 .background-gym {
     position: relative;
     z-index: -1;
@@ -341,7 +348,7 @@ button:hover {
 .mobile-submenu {
     position: fixed;
     padding: 0.5rem 0.8rem;
-    top: 11vh;
+    top: 18vh;
     right: 1vh;
     background-color: #000000;
     border-radius: 15px;
@@ -364,7 +371,7 @@ button:hover {
     flex-direction: column;
     height: auto;
     padding: 0rem;
-    top: 17vh;
+    top: 24vh;
     right: 1vh;
     background-color: #000000ad;
     border-radius: 15px;
@@ -575,7 +582,7 @@ footer>h3 {
 
 @media only screen and (max-width: 1366px) {
     .mobile-submenu {
-        top: 15vh;
+        top: 19vh;
         right: 2vh;
     }
 
@@ -584,7 +591,7 @@ footer>h3 {
     }
 
     .submenu {
-        top: 22vh;
+        top: 27vh;
         right: 2vh;
         width: 13rem;
     }
@@ -715,7 +722,7 @@ footer>h3 {
     }
 
     .mobile-submenu {
-        top: 8vh;
+        top: 18vh;
         right: 2vh;
     }
 
@@ -724,7 +731,7 @@ footer>h3 {
     }
 
     .submenu {
-        top: 13vh;
+        top: 25vh;
         right: 2vh;
         width: 13rem;
     }
@@ -779,7 +786,7 @@ footer>h3 {
     }
 
     .mobile-submenu {
-        top: 9vh;
+        top: 17vh;
         right: 1rem;
     }
 
@@ -787,8 +794,14 @@ footer>h3 {
         margin-left: 5rem;
     }
 
+    .float{
+        top: 9vh;
+        right: 1rem;
+        font-size: 0.5rem;
+    }
+
     .submenu {
-        top: 14vh;
+        top: 23vh;
         right: 1rem;
         width: 15rem;
         font-size: 1.2rem;
@@ -952,13 +965,13 @@ footer>h3 {
     }
 
     .mobile-submenu {
-        top: 9vh;
+        top: 15vh;
         font-size: 0.7rem;
     }
 
     .submenu {
         width: 32vh;
-        top: 15vh;
+        top: 22vh;
         font-size: 0.7rem;
     }
 
