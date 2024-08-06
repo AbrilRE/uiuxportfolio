@@ -786,7 +786,7 @@ footer>h3 {
     }
 
     .mobile-submenu {
-        top: 17vh;
+        top: 16vh;
         right: 1rem;
     }
 
@@ -795,9 +795,9 @@ footer>h3 {
     }
 
     .float{
-        top: 9vh;
+        top: 10vh;
         right: 1rem;
-        font-size: 0.5rem;
+        font-size: 0.9rem;
     }
 
     .submenu {
